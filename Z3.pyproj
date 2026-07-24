@@ -1,0 +1,169 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>852e04e0-9298-42cd-aecd-9e47aee81398</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Z3.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>Z3</Name>
+    <RootNamespace>Z3</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="config_manager.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modules\about_page.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modules\kb\kb_module.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modules\kb\kb_overlay_buttons.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modules\kb\kb_sett1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modules\kb\kb_sett2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modules\kb\kb_sett3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modules\kb\kb_sett4.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modules\kb\kb_sett5.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modules\kb\kb_settings_main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modules\mouse\advanced_clicker.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modules\mouse\advanced_panel.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modules\mouse\autoclick_win.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modules\mouse\click_toolbar.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modules\mouse\mouse_sett1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modules\mouse\mouse_sett2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modules\mouse\mouse_sett3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modules\mouse\mouse_sett4.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modules\mouse\mouse_settings_main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modules\mouse\scroll_overlay.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modules\mouse\start_mouse.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modules\profiles_page.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modules\settings_page.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modules\video\start_camera.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modules\video\tracking.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modules\video\video_sett1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modules\video\video_sett2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modules\video\video_sett3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modules\video\video_sett4.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modules\video\video_settings_main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modules\voice\voice_sett3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modules\mouse\mouse_module.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modules\voice\voice_sett1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modules\voice\voice_sett2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modules\voice\voice_sett4.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modules\voice\voice_settings_main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sidebar.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modules\video\video_module.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modules\voice\voice_module.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modules\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="styles.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="title_bar.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Z3.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images\" />
+    <Folder Include="modules\" />
+    <Folder Include="modules\mouse\" />
+    <Folder Include="modules\kb\" />
+    <Folder Include="modules\voice\" />
+    <Folder Include="modules\video\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
