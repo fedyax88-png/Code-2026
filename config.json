@@ -1,0 +1,681 @@
+{
+    "current_profile": "Gaming",
+    "window_settings": {
+        "opacity": 65,
+        "position_x": 100,
+        "position_y": 100
+    },
+    "profiles": {
+        "Default Profile": {
+            "video": {
+                "main_toggle": true,
+                "online_mode": true,
+                "tracking_mode": true,
+                "setting_1": true,
+                "setting_2": true,
+                "setting_3": true,
+                "setting_4": true,
+                "resolution": "320x240",
+                "fps": 30,
+                "video_format": "MJPG",
+                "tracking_alpha": 0.05,
+                "tracking_show_box": true,
+                "tracking_show_dot": true
+            },
+            "mouse": {
+                "main_toggle": true,
+                "autoclicker": true,
+                "panel_on_screen": false,
+                "setting_1": true,
+                "setting_2": true,
+                "setting_3": true,
+                "setting_4": true,
+                "move_mode": true,
+                "click_mode": false,
+                "speed": 40.0,
+                "smooth": 0.15,
+                "threshold": 0.18,
+                "use_win_mouse": true,
+                "click_delay": 0.5,
+                "click_radius": 3,
+                "show_custom_cursor": true,
+                "show_click_circle": false,
+                "click_sound_enabled": false,
+                "click_hold_ms": 100,
+                "selected_sound_file": "computer-mouse-click.wav",
+                "toolbar_enabled": true,
+                "toolbar_auto_hide": true,
+                "toolbar_size_cm": 5,
+                "toolbar_anchor_x": 761,
+                "toolbar_anchor_y": 0,
+                "toolbar_opacity_sync": false,
+                "toolbar_hide_delay_sec": 3,
+                "toolbar_opacity_enabled": false,
+                "toolbar_opacity_value": 72,
+                "toolbar_trigger_length": 85,
+                "toolbar_trigger_width": 12,
+                "toolbar_trigger_position_idx": 1,
+                "advanced_panel": {
+                    "lmb_timer_sec": 1,
+                    "rmb_timer_sec": 4,
+                    "active_mode_lmb": "none",
+                    "active_mode_rmb": "none",
+                    "active_mode_mmb": "none"
+                },
+                "click_volume": 21,
+                "advanced_timers": {
+                    "left_hold_sec": 5,
+                    "right_hold_sec": 10
+                },
+                "opacity": 100
+            },
+            "kb": {
+                "main_toggle": true,
+                "setting_1": true,
+                "setting_2": true,
+                "setting_3": true,
+                "setting_4": true,
+                "gestures_enabled": true,
+                "hotkeys_enabled": false,
+                "bindings": {
+                    "pucker": "LMB",
+                    "mouth_jaw": "RMB",
+                    "smile": "RST"
+                },
+                "thresholds": {
+                    "blink_left": 95,
+                    "smile_left": 68,
+                    "blink_right": 95,
+                    "mouth_jaw": 27,
+                    "head_yaw": 50,
+                    "head_pitch": 43,
+                    "brows_up": 40,
+                    "brows_down": 32,
+                    "smile": 25,
+                    "pucker": 64,
+                    "turn_right": 21,
+                    "turn_left": 21,
+                    "tilt_up": 90,
+                    "tilt_down": 32,
+                    "zoom_out": 20,
+                    "zoom_in": 20
+                },
+                "real_press_enabled": true,
+                "smooth_factor": 69,
+                "overlay_selected_keys": [
+                    "LMB",
+                    "Tab",
+                    "RMB",
+                    "Q",
+                    "E",
+                    "R",
+                    "F",
+                    "C",
+                    "Space",
+                    "Enter",
+                    "L",
+                    "Esc",
+                    "LShift",
+                    "CTR",
+                    "OSK",
+                    "СК",
+                    "APP",
+                    "V",
+                    "1",
+                    "2",
+                    "3",
+                    "MMB",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "G",
+                    "K+",
+                    "M",
+                    "P",
+                    "'",
+                    "Z",
+                    "T",
+                    "X"
+                ],
+                "overlay_positions": {
+                    "esc": [
+                        65,
+                        944
+                    ],
+                    "tab": [
+                        60,
+                        60
+                    ],
+                    "app": [
+                        1862,
+                        61
+                    ],
+                    "space": [
+                        1598,
+                        988
+                    ],
+                    "ск": [
+                        65,
+                        538
+                    ],
+                    "osk": [
+                        1863,
+                        112
+                    ],
+                    "rmb": [
+                        1693,
+                        287
+                    ],
+                    "lmb": [
+                        1689,
+                        357
+                    ],
+                    "mmb": [
+                        66,
+                        602
+                    ],
+                    "q": [
+                        1620,
+                        286
+                    ],
+                    "e": [
+                        1757,
+                        286
+                    ],
+                    "r": [
+                        1619,
+                        359
+                    ],
+                    "f": [
+                        1755,
+                        360
+                    ],
+                    "c": [
+                        1827,
+                        283
+                    ],
+                    "cross_4v_bottom": [
+                        780,
+                        599
+                    ],
+                    "cross_4v_top": [
+                        779,
+                        373
+                    ],
+                    "cross_4v_right": [
+                        1014,
+                        439
+                    ],
+                    "cross_4v_left": [
+                        778,
+                        438
+                    ],
+                    "enter": [
+                        60,
+                        149
+                    ],
+                    "1": [
+                        1832,
+                        444
+                    ],
+                    "2": [
+                        1832,
+                        483
+                    ],
+                    "3": [
+                        1832,
+                        520
+                    ],
+                    "4": [
+                        1831,
+                        557
+                    ],
+                    "5": [
+                        1833,
+                        595
+                    ],
+                    "6": [
+                        1835,
+                        631
+                    ],
+                    "7": [
+                        1833,
+                        668
+                    ],
+                    "l": [
+                        1625,
+                        58
+                    ],
+                    "v": [
+                        1832,
+                        366
+                    ],
+                    "lshift": [
+                        1714,
+                        989
+                    ],
+                    "9": {
+                        "x": 1042,
+                        "y": 458
+                    },
+                    "8": {
+                        "x": 1001,
+                        "y": 458
+                    },
+                    "0": {
+                        "x": 1083,
+                        "y": 458
+                    },
+                    "g": [
+                        67,
+                        873
+                    ],
+                    "ctr": [
+                        27,
+                        481
+                    ],
+                    "k+": [
+                        68,
+                        665
+                    ],
+                    "lctrl": [
+                        908,
+                        306
+                    ],
+                    "cross_4v_center": [
+                        827,
+                        818
+                    ],
+                    "focus_line_4v_left": [
+                        45,
+                        469
+                    ],
+                    "focus_line_4v_top": [
+                        789,
+                        113
+                    ],
+                    "focus_line_4v_right": [
+                        1878,
+                        441
+                    ],
+                    "focus_line_4v_bottom": [
+                        807,
+                        1006
+                    ],
+                    "z": [
+                        60,
+                        817
+                    ],
+                    "t": [
+                        70,
+                        720
+                    ],
+                    "x": [
+                        58,
+                        769
+                    ],
+                    "лп": {
+                        "x": 877,
+                        "y": 393
+                    },
+                    "'": [
+                        1751,
+                        57
+                    ],
+                    "p": [
+                        1751,
+                        150
+                    ],
+                    "backspace": {
+                        "x": 1254,
+                        "y": 442
+                    }
+                },
+                "overlay_press_enabled": true,
+                "overlay_opacity": 84,
+                "overlay_size": 41,
+                "cross_enabled": false,
+                "cross_btn_width": 119,
+                "cross_btn_height": 93,
+                "cross_custom_binds": {
+                    "top": {
+                        "key": "W",
+                        "w": 340,
+                        "h": 136,
+                        "visible": true
+                    },
+                    "bottom": {
+                        "key": "S",
+                        "w": 335,
+                        "h": 134,
+                        "visible": true
+                    },
+                    "left": {
+                        "key": "A",
+                        "w": 104,
+                        "h": 216,
+                        "visible": true
+                    },
+                    "right": {
+                        "key": "D",
+                        "w": 101,
+                        "h": 219,
+                        "visible": true
+                    },
+                    "center": {
+                        "key": "Space",
+                        "w": 226,
+                        "h": 69,
+                        "visible": true
+                    }
+                },
+                "overlay_modes": {
+                    "esc": "click_once",
+                    "lmb": "toggle_click",
+                    "rmb": "toggle_click",
+                    "osk": "click_once",
+                    "ctr": "click_once",
+                    "r": "hover",
+                    "enter": "click_once",
+                    "lshift": "hover",
+                    "tab": "click_once",
+                    "ск": "toggle_click",
+                    "app": "click_once",
+                    "space": "hover",
+                    "c": "hover",
+                    "v": "click_once",
+                    "l": "hover",
+                    "1": "hover",
+                    "2": "click_once",
+                    "3": "click_once",
+                    "mmb": "toggle_click",
+                    "4": "click_once",
+                    "5": "click_once",
+                    "6": "click_once",
+                    "7": "hover",
+                    "g": "hover",
+                    "k+": "toggle_click",
+                    "m": "click_once",
+                    "p": "toggle_hover",
+                    "'": "hover",
+                    "z": "click_once",
+                    "t": "toggle_click",
+                    "x": "hover"
+                },
+                "cross_opacity": 15,
+                "clr_border": "#ffffff",
+                "clr_bg": "#000000",
+                "clr_bg_active": "#13940c",
+                "clr_border_active": "#ffffff",
+                "focus_lines_enabled": false,
+                "focus_lines_binds": {
+                    "top": {
+                        "name": "Вверх",
+                        "w": 334,
+                        "h": 23,
+                        "visible": true,
+                        "mode": "hover"
+                    },
+                    "bottom": {
+                        "name": "Вниз",
+                        "w": 308,
+                        "h": 20,
+                        "visible": true,
+                        "mode": "hover"
+                    },
+                    "left": {
+                        "name": "Лево",
+                        "w": 20,
+                        "h": 134,
+                        "visible": true,
+                        "mode": "hover"
+                    },
+                    "right": {
+                        "name": "Право",
+                        "w": 20,
+                        "h": 152,
+                        "visible": true,
+                        "mode": "hover"
+                    },
+                    "nw": {
+                        "name": "Сев-Запад",
+                        "w": 151,
+                        "h": 20,
+                        "visible": false,
+                        "mode": "hover"
+                    },
+                    "ne": {
+                        "name": "Сев-Восток",
+                        "w": 150,
+                        "h": 20,
+                        "visible": false,
+                        "mode": "hover"
+                    },
+                    "sw": {
+                        "name": "Юг-Запад",
+                        "w": 150,
+                        "h": 20,
+                        "visible": false,
+                        "mode": "hover"
+                    },
+                    "se": {
+                        "name": "Юг-Восток",
+                        "w": 150,
+                        "h": 20,
+                        "visible": false,
+                        "mode": "hover"
+                    }
+                },
+                "focus_lines_opacity": 44
+            },
+            "voice": {
+                "main_toggle": true,
+                "mode": "Стандартный",
+                "setting_1": true,
+                "setting_2": true,
+                "setting_3": true,
+                "setting_4": true
+            }
+        },
+        "Gaming": {
+            "video": {
+                "main_toggle": true,
+                "online_mode": false,
+                "tracking_mode": true,
+                "setting_1": true,
+                "setting_2": true,
+                "setting_3": true,
+                "setting_4": true,
+                "tracking_alpha": 0.07,
+                "tracking_show_box": true
+            },
+            "mouse": {
+                "main_toggle": true,
+                "autoclicker": false,
+                "panel_on_screen": false,
+                "setting_1": true,
+                "setting_2": true,
+                "setting_3": true,
+                "setting_4": true,
+                "move_mode": true,
+                "click_mode": false,
+                "speed": 25.0,
+                "smooth": 0.12,
+                "threshold": 0.15,
+                "use_win_mouse": false,
+                "click_delay": 0.6,
+                "click_radius": 15,
+                "show_custom_cursor": false,
+                "show_click_circle": true,
+                "click_sound_enabled": false,
+                "click_hold_ms": 50,
+                "selected_sound_file": "default",
+                "toolbar_enabled": false,
+                "toolbar_auto_hide": true,
+                "toolbar_size_cm": 5,
+                "toolbar_anchor_x": 761,
+                "toolbar_anchor_y": 0,
+                "toolbar_trigger_position_idx": 1,
+                "toolbar_hide_delay_sec": 3,
+                "toolbar_trigger_width": 13,
+                "toolbar_trigger_length": 101,
+                "toolbar_opacity_value": 54,
+                "toolbar_opacity_enabled": false
+            },
+            "kb": {
+                "main_toggle": true,
+                "setting_1": true,
+                "setting_2": true,
+                "setting_3": true,
+                "setting_4": true,
+                "gestures_enabled": true,
+                "hotkeys_enabled": true,
+                "overlay_opacity": 100,
+                "overlay_size": 60,
+                "overlay_press_enabled": true,
+                "overlay_selected_keys": [
+                    "Esc",
+                    "OSK"
+                ],
+                "overlay_modes": {
+                    "9": "click_on_hover_off",
+                    "osk": "click_once"
+                },
+                "cross_enabled": false,
+                "bindings": {
+                    "pucker": "LMB"
+                },
+                "smooth_factor": 76,
+                "clr_border": "#2af007",
+                "overlay_positions": {
+                    "esc": {
+                        "x": 484,
+                        "y": 336
+                    },
+                    "lmb": {
+                        "x": 567,
+                        "y": 336
+                    },
+                    "rmb": {
+                        "x": 635,
+                        "y": 336
+                    },
+                    "mmb": {
+                        "x": 703,
+                        "y": 336
+                    },
+                    "osk": {
+                        "x": 771,
+                        "y": 336
+                    },
+                    "ск": {
+                        "x": 907,
+                        "y": 336
+                    },
+                    "app": {
+                        "x": 975,
+                        "y": 336
+                    },
+                    "ctr": {
+                        "x": 1053,
+                        "y": 336
+                    },
+                    "k+": {
+                        "x": 1131,
+                        "y": 336
+                    }
+                }
+            },
+            "voice": {
+                "main_toggle": true,
+                "mode": "Стандартный",
+                "setting_1": true,
+                "setting_2": true,
+                "setting_3": true,
+                "setting_4": true
+            }
+        },
+        "Work": {
+            "video": {
+                "main_toggle": true,
+                "online_mode": false,
+                "tracking_mode": true,
+                "setting_1": true,
+                "setting_2": true,
+                "setting_3": true,
+                "setting_4": true
+            },
+            "mouse": {
+                "main_toggle": true,
+                "autoclicker": false,
+                "panel_on_screen": false,
+                "setting_1": true,
+                "setting_2": true,
+                "setting_3": true,
+                "setting_4": true,
+                "move_mode": true,
+                "click_mode": true,
+                "speed": 25.0,
+                "smooth": 0.12,
+                "threshold": 0.15,
+                "use_win_mouse": false,
+                "click_delay": 0.6,
+                "click_radius": 15,
+                "show_custom_cursor": false,
+                "show_click_circle": true,
+                "click_sound_enabled": true,
+                "click_hold_ms": 50,
+                "selected_sound_file": "default",
+                "toolbar_enabled": false,
+                "toolbar_auto_hide": true,
+                "toolbar_size_cm": 5,
+                "toolbar_anchor_x": -1,
+                "toolbar_anchor_y": 0
+            },
+            "kb": {
+                "main_toggle": true,
+                "setting_1": true,
+                "setting_2": true,
+                "setting_3": true,
+                "setting_4": true,
+                "gestures_enabled": true,
+                "hotkeys_enabled": false,
+                "overlay_opacity": 100,
+                "overlay_size": 60,
+                "overlay_press_enabled": true,
+                "overlay_selected_keys": [],
+                "overlay_modes": {
+                    "9": "click_on_hover_off"
+                },
+                "cross_enabled": false
+            },
+            "voice": {
+                "main_toggle": true,
+                "mode": "Стандартный",
+                "setting_1": true,
+                "setting_2": true,
+                "setting_3": true,
+                "setting_4": true
+            }
+        }
+    },
+    "custom_palette_colors": [
+        "#ff010e",
+        "#ffffff",
+        "#ff2bff",
+        "#fffcfd",
+        "#005500",
+        "#ffffff",
+        "#ffffff",
+        "#ffffff",
+        "#ffffff",
+        "#ffffff",
+        "#ffffff",
+        "#ffffff",
+        "#ffffff",
+        "#ffffff",
+        "#ffffff",
+        "#ffffff"
+    ]
+}
